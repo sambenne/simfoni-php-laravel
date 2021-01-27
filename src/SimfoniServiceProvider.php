@@ -26,7 +26,7 @@ class SimfoniServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/simfoni_laravel.php' => config_path('simfoni.php'),
+            __DIR__.'/../config/simfoni.php' => config_path('simfoni.php'),
         ], 'config');
 
         $this->registerMiddleware(LoadSimfoniConfig::class);
@@ -40,7 +40,6 @@ class SimfoniServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(Simfoni::class, static function () {
-
             // setup key configuration details on the base class automatically
             // to avoid keeping having to set this in integration code
             Simfoni::setBaseUri(Config::get('simfoni.endpoint'));

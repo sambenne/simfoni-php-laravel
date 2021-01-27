@@ -24,7 +24,7 @@ class LaravelTestCase extends \Orchestra\Testbench\TestCase
      */
     protected function getEnvironmentSetUp($app): void
     {
-        $config = include __DIR__.'/../config/simfoni_laravel.php';
+        $config = include __DIR__.'/../config/simfoni.php';
 
         foreach ($config as $key => $value) {
             $app['config']->set('simfoni_laravel.'.$key, $value);
