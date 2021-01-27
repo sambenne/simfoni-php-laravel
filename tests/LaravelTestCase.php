@@ -27,7 +27,7 @@ class LaravelTestCase extends \Orchestra\Testbench\TestCase
         $config = include __DIR__.'/../config/simfoni.php';
 
         foreach ($config as $key => $value) {
-            $app['config']->set('simfoni_laravel.'.$key, $value);
+            $app['config']->set('simfoni.'.$key, $value);
         }
 
         // register the class for testing

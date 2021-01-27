@@ -19,10 +19,10 @@ class SimfoniLaravelTest extends LaravelTestCase
     /** @test * */
     public function does_bootstrap_configuration()
     {
-        self::assertEquals('https://simfoni.co.uk', Config::get('simfoni_laravel.endpoint'));
-        self::assertEquals(true, Config::get('simfoni_laravel.verify_ssl'));
-        self::assertEquals(false, Config::get('simfoni_laravel.enable_webhooks'));
-        self::assertEquals('default', Config::get('simfoni_laravel.webhook_signature'));
+        self::assertEquals('https://simfoni.co.uk', Config::get('simfoni.endpoint'));
+        self::assertEquals(true, Config::get('simfoni.verify_ssl'));
+        self::assertEquals(false, Config::get('simfoni.enable_webhooks'));
+        self::assertEquals('default', Config::get('simfoni.webhook_signature'));
     }
 
     /** @test * */

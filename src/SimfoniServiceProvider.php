@@ -42,6 +42,10 @@ class SimfoniServiceProvider extends ServiceProvider
         $this->app->singleton(Simfoni::class, static function () {
             // setup key configuration details on the base class automatically
             // to avoid keeping having to set this in integration code
+            $token = Config::get('simfoni.token', null);
+            if ($token !== null) {
+                Simfoni::setToken($token);
+            }
             Simfoni::setBaseUri(Config::get('simfoni.endpoint'));
             Simfoni::setVerifySSL(Config::get('simfoni.verify_ssl', true));
             Simfoni::setWebhookSignature(Config::get('simfoni.webhook_signature'));

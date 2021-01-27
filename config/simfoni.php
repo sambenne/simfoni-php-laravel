@@ -37,5 +37,16 @@ return [
 
     'webhook_signature' => env('SIMFONI_WEBHOOK_SIGNATURE', 'default'),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Simfoni Token
+    |--------------------------------------------------------------------------
+    |
+    | The token used to authenticate API requests, this will be provided by the
+    | simfoni application itself
+    */
+
+    'token' => env('SIMFONI_TOKEN', null),
+
 
 ];
