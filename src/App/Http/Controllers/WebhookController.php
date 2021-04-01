@@ -27,11 +27,11 @@ class WebhookController extends Controller
     {
         try {
 
-            $verifyService = new VerifyRequest(Simfoni::getWebhookSignature(), request()->header('Simfoni-Signature'));
+//             $verifyService = new VerifyRequest(Simfoni::getWebhookSignature(), request()->header('Simfoni-Signature'));
 
-            if (!$verifyService->validates($request->request->all())) {
-                throw new InvalidWebhookRequest;
-            }
+//             if (!$verifyService->validates($request->request->all())) {
+//                 throw new InvalidWebhookRequest;
+//             }
 
             $eventName = $request->get('event', 'unknown');
 
