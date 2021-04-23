@@ -1,6 +1,9 @@
 # Simfoni Laravel interface for PHP
 
-<a href="https://travis-ci.org/mblsolutions/simfoni-php-laravel"><img src="https://travis-ci.org/mblsolutions/simfoni-php.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/mblsolutions/simfoni-php-laravel"><img src="https://github.com/mblsolutions/simfoni-php-laravel/actions/workflows/simfoni-php-laravel.yml/badge.svg"></a>
+<a href="https://packagist.org/packages/mblsolutions/simfoni-php-laravel"><img src="https://img.shields.io/packagist/v/mblsolutions/simfoni-php-laravel" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/mblsolutions/simfoni-php-laravel"><img src="https://img.shields.io/packagist/l/mblsolutions/simfoni-php-laravel" alt="License"></a>
+
 
 The Simfoni Laravel Interface for PHP gives you an API interface into the Simfoni Platform for your Laravel applications.
 
