@@ -1,3 +1,7 @@
+## v2.1.0
+
++ Bump mblsolutions/simfoni-php package version
+
 ## v2.0.0
 
 + Update `mblsolutions/simfoni-php` to `v2.*`
