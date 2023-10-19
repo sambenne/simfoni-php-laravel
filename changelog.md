@@ -1,3 +1,7 @@
+## v2.3.0
+
++ Update illuminate package versions
+
 ## v2.2.0
 
 + Update illuminate package versions
