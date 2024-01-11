@@ -20,7 +20,7 @@
     "mblsolutions/simfoni-php": "^2.5"
   },
   "require-dev": {
-    "orchestra/testbench": "^4.0",
+    "orchestra/testbench": "^8.0",
     "phpunit/phpunit": "^8.0|^9.3"
   },
   "autoload": {
