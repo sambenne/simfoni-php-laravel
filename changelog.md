@@ -1,3 +1,7 @@
+## v2.4.0
+
++ Bump simfoni-php and php unit versions
+
 ## v2.3.0
 
 + Update illuminate package versions
