@@ -1,3 +1,7 @@
+## v3.0.0
+
++ AB#39838 Remove unused validation and add signature to received webhook params
+
 ## v2.4.0
 
 + Bump simfoni-php and php unit versions

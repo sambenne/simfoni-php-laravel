@@ -20,10 +20,9 @@ class WebhookController extends Controller
      * @param  Request  $request
      * @return JsonResponse
      */
-    public function webhook(Request $request): JsonResponse
+    public function webhook(Request $request)
     {
         try {
-
             $eventName = $request->get('event', 'unknown');
 
             event(new ReceivedWebhook($eventName, $request->all(), request()->header('Simfoni-Signature')));

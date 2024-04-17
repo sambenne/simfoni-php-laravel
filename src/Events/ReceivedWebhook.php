@@ -16,17 +16,21 @@ class ReceivedWebhook
     /** @var array $data */
     public $data;
 
+    public $signature;
+
     /**
      * Create a new event instance.
      *
      * @param  string  $event
      * @param  array  $data
      */
-    public function __construct(string $event, $data)
+    public function __construct(string $event, $data, $signature)
     {
         $this->event = $event;
 
         $this->data = $data;
+
+        $this->signature = $signature;
     }
 
 }
