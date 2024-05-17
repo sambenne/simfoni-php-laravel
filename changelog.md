@@ -1,3 +1,7 @@
+## v3.1.0
+
++ AB#46806 Add support for Laravel 11
+
 ## v3.0.0
 
 + AB#39838 Remove unused validation and add signature to received webhook params
