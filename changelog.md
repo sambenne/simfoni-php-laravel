@@ -1,3 +1,19 @@
+## v3.1.0
+
++ AB#46806 Add support for Laravel 11
+
+## v3.0.0
+
++ AB#39838 Remove unused validation and add signature to received webhook params
+
+## v2.4.0
+
++ Bump simfoni-php and php unit versions
+
+## v2.3.0
+
++ Update illuminate package versions
+
 ## v2.2.0
 
 + Update illuminate package versions
